@@ -2,9 +2,9 @@
 Contributors: SuPlugins, Themeeverest
 Tags: Reveal Button, Coupon Button, Bonus code, Button, discount code button
 Requires at least: 3.0.1
-Tested up to: 6.5
+Tested up to: 6.9
 Requires PHP: 5.2.4
-Stable tag: 1.2.7
+Stable tag: 1.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -134,6 +134,8 @@ We cannot promise exactly what features that will be released this year, but we 
 2. Manage your coupon reveal buttons.
 
 == Changelog ==
+= 1.3.0 =
+Various improvements and fixes.
 = 1.2.7=
 Minor fixes.
 = 1.2.6= 

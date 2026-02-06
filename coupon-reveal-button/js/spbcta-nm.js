@@ -16,7 +16,12 @@ var spbctaNM = {};
           $(element).addClass("spbcta_selectable");
           $(element)
             .children(".reveal__button__hidden__content")
-            .text(decodeURIComponent(escape(atob(base64String))));
+            .text(
+              decodeURIComponent(escape(atob(base64String))).replace(
+                /&amp;/g,
+                "&"
+              )
+            );
           if (!preview) $(element).removeAttr("href");
           $(element)
             .closest(".reveal__button__wrapper")
